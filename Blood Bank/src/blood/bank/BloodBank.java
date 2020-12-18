@@ -15,7 +15,9 @@ public class BloodBank {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hello WOrld");
+        
+        System.out.println("Blood bank");
+        System.out.println("Project 370");
     }
     
 }
