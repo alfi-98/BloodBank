@@ -18,6 +18,7 @@ public class BloodBank {
         
         System.out.println("Blood bank");
         System.out.println("Project 370");
+        System.out.println("Alfi abal");
     }
     
 }
