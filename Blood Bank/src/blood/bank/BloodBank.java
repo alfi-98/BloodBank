@@ -18,8 +18,13 @@ public class BloodBank {
         
         System.out.println("Blood bank");
         System.out.println("Project 370");
+<<<<<<< HEAD
         
         System.out.println("Azwaad's print");
+=======
+        System.out.println("Alfi abal");
+        System.out.println("hiiiiii");
+>>>>>>> 875971577d90db7027bd12922d4d21b27949d44d
     }
     
 }
