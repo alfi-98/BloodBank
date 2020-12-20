@@ -4,7 +4,7 @@ package ConnectionHandler;
 import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.*;
-public class Connection {
+public class ConnectionHandle {
     public static Connection makeConnection() throws ClassNotFoundException, SQLException{
         try{
             
