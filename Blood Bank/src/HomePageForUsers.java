@@ -266,7 +266,7 @@ new welcomePage().setVisible(true);}// TODO add your handling code here:
 
     private void jButton7ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton7ActionPerformed
         setVisible(false);
-        new RequestForm().setVisible(true);
+        //new RequestForm().setVisible(true);
     }//GEN-LAST:event_jButton7ActionPerformed
 
     /**
@@ -298,6 +298,7 @@ new welcomePage().setVisible(true);}// TODO add your handling code here:
 
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
+            @Override
             public void run() {
                 new HomePageForUsers().setVisible(true);
             }

@@ -178,11 +178,11 @@ public class welcomePage extends javax.swing.JFrame {
         try{
             Connection con = (Connection) ConnectionHandle.makeConnection();
             Statement st = con.createStatement();
-            ResultSet rs= st.executeQuery("Select RegID, Password, Approved from bloodbankdb where RegID='"+jTextField1.getText()+"'");
+            ResultSet rs= st.executeQuery("Select RegID, Password, Approve from bloodbankdb where RegID='"+jTextField1.getText()+"'");
             
             while(rs.next()){
             if(password.equals(rs.getString("Password"))){
-                if(rs.getInt("Approved")==1){
+                if(rs.getInt("Approve")==1){
                 //JOptionPane.showMessageDialog(null, "Login Successful");
                 setVisible(false);
                 new HomePageForUsers().setVisible(true);
